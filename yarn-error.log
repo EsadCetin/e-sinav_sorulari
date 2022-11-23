@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\mehme\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\mehme\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-vector-icons
 
 PATH: 
-  C:\Users\mehme\AppData\Local\Temp\yarn--1668778994525-0.8104404091462383;C:\Users\mehme\AppData\Local\Yarn\Data\global\node_modules\.bin;C:\Users\mehme\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Users\mehme\AppData\Local\Yarn\bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\mehme\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mehme\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\mehme\AppData\Local\Microsoft\WindowsApps;C:\Users\mehme\AppData\Local\GitHubDesktop\bin;C:\Users\mehme\AppData\Roaming\npm;C:\Users\mehme\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+  C:\Users\mehme\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mehme\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\mehme\AppData\Local\Microsoft\WindowsApps;C:\Users\mehme\AppData\Local\GitHubDesktop\bin;C:\Users\mehme\AppData\Roaming\npm;C:\Users\mehme\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.22.19
@@ -33,10 +33,17 @@ npm manifest:
       "web": "expo start --web"
     },
     "dependencies": {
+      "@react-native-community/masked-view": "^0.1.11",
+      "@react-navigation/native": "^6.0.13",
+      "@react-navigation/stack": "^6.3.4",
       "expo": "~47.0.6",
       "expo-status-bar": "~1.4.2",
       "react": "18.1.0",
-      "react-native": "0.70.5"
+      "react-native": "0.70.5",
+      "react-native-gesture-handler": "^2.8.0",
+      "react-native-reanimated": "^2.12.0",
+      "react-native-safe-area-context": "^4.4.1",
+      "react-native-screens": "^3.18.2"
     },
     "devDependencies": {
       "@babel/core": "^7.12.9"
